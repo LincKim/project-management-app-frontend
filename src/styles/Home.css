@@ -212,3 +212,115 @@ span{
     font-size: 0.875rem;
     line-height: 1.4;
 }
+.signup span{
+    display: inline;
+}
+.gs-show{
+    width: 100%;
+}
+.gs-show2{
+    font-size: 1rem;
+    font: inherit;
+}
+.about{
+    background-color: rgb(255, 255, 255);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: visible;
+    padding: 0px 40px;
+    box-sizing: inherit;
+}
+section{
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.about > div{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.about-content{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.about-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.about-content-wrapper{
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: transparent;
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.about-heading{
+    font-size: 3.125em;
+    line-height: 1.2;
+    white-space: pre-line;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 32px;
+    max-width: 770px;
+}
+h1{
+    user-select: text;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    font: inherit;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+:-webkit-any(article, aside, nav, section) h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.show-about-heading{
+    font-size: inherit;
+    line-height: inherit;
+    color: rgb(0, 107, 255);
+}

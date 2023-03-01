@@ -23,7 +23,9 @@ const Home = () => {
                         <li>
                             <div className="get-started">
                                 <a href="/signup" className="signup">
-                                    <span>Get Started</span>
+                                    <span className="gs-show">
+                                        <span className="gs-show2">Get Started</span>
+                                    </span>   
                                 </a>
 
                             </div>
@@ -33,6 +35,20 @@ const Home = () => {
             </nav>
            
           </div>
+          <section className="about">
+                <div className="about-content">
+                    <div className="about-column">
+                        <div className="about-row">
+                            <div className="about-content-wrapper">
+                                <h1 className="about-heading">
+                                    <span className="show-about-heading">Manage projects</span> &nbsp; work better
+                                </h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+          </section>
         </div>
     );
 }
