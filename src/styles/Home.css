@@ -1,0 +1,78 @@
+html, body, *{
+    font-family:  Gilroy, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 2;
+}
+.header-navigation{
+    position: sticky;
+    top: 0px;
+    z-index: 1003;
+    transform: translateY(0px);
+    width: 100%;
+    transition: transform 0.3s ease 0s;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.navigation-display{
+    box-shadow: rgb(0 0 / 4%) 0px 4px 4px;
+    position: relative;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.showcase {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0px auto;
+    height: 68px;
+    font: inherit;
+    border: 0px;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.logo-show{
+    position: relative;
+    color: rgb(0, 107, 255);
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px !important;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.logo-wrapper {
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    flex: 0 1 0%;
+    margin: 0px;
+    padding: 0px !important;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
+}
