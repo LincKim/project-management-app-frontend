@@ -76,3 +76,35 @@ html, body, *{
     text-rendering: optimizeLegibility;
     box-sizing: inherit;
 }
+/* #project-logo{
+    display: block;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+} */
+.items-nav{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: auto;
+    user-select: text;
+    margin: 0px;
+    padding:0px !important;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+ul{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

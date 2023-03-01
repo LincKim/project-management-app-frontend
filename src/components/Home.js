@@ -7,10 +7,10 @@ const Home = () => {
                 <div className="showcase">
                     <a href="/" className="logo-show">
                         <div className="logo-wrapper">
-                            <h2><i className="fas fa-project-diagram"></i><span>Project Management App</span></h2>
+                            <h2><i className="fas fa-project-diagram" id="project-logo"></i><span>Project Management App</span></h2>
                         </div>
                     </a>
-                    <ul>
+                    <ul className="items-nav">
                         <li> <a href="#">About</a></li>
                         <li> <a href="#">Contact</a></li>
                         <li><a href="#">Login/SignUp</a></li>
