@@ -108,3 +108,107 @@ ul{
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+.showcase > ul >li:not(.skip){
+    margin: 0px 20px;
+}
+.showcase > ul >li{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: all 0.2s linear 0s;
+    position: relative;
+}
+li{
+    user-select: text;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    text-align: -webkit-match-parent;
+}
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.showcase a{
+    position: relative;
+}
+.lists{
+    cursor: pointer;
+}
+.right-side{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    min-width: auto;
+}
+.showcase > ul >li:not(.skip) > a {
+    font-size: 1rem;
+    line-height: 1; 
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    transition: all 0.2s linear 0s;
+    white-space: nowrap;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+.showcase .logo-show{
+    position: relative;
+}
+.login1{
+cursor: pointer;
+}
+span{
+    user-select: text;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.get-started{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.signup{
+    transition: all 0.2s linear 0s;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    font-family: Gilroy;
+    font-weight: 600;
+    min-height: 36px;
+    height: auto;
+    margin: 8px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: rgb(0, 107, 255);
+    padding: 8px 14px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}

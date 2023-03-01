@@ -11,9 +11,23 @@ const Home = () => {
                         </div>
                     </a>
                     <ul className="items-nav">
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Contact</a></li>
-                        <li><a href="#">Login/SignUp</a></li>
+                        <li> <a href="#" className="lists">About</a></li>
+                        <li> <a href="#" className="lists">Contact</a></li>
+                    </ul>
+                    <ul className="items-nav right-side">
+                        <li>
+                            <a href="/login" className="logo-show login1">
+                                <span>Log In</span>
+                            </a>
+                        </li>
+                        <li>
+                            <div className="get-started">
+                                <a href="/signup" className="signup">
+                                    <span>Get Started</span>
+                                </a>
+
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
