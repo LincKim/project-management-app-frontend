@@ -324,3 +324,65 @@ h1{
     line-height: inherit;
     color: rgb(0, 107, 255);
 }
+.main-content{
+    height: 100%;
+    text-align: center;
+    color: rgb(71, 103, 136);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
+    width: 100%;
+    max-width: 770px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.main-content >p {
+    line-height: 1.4;
+}
+p{
+    user-select: text;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.p-content{
+    width: 100%;
+    height: auto;
+    padding-bottom: 32px;
+    
+    
+}
+.main-content .button-container{
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.button-container{
+    padding-left: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    color: rgb(71, 103, 136);
+    box-sizing: inherit;
+}
+.sign-up-button{
+    width: auto;
+    height: 100%;
+    user-select: text;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
