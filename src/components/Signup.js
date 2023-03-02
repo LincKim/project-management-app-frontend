@@ -51,7 +51,7 @@ const Signup = () => {
                     <div className="already-signed-up">
                         <p>
                             Already have an account?
-                            <a></a>
+                            <a href="/login" className="log-get-started"> Log in</a>
                         </p>
                         
                     </div>
