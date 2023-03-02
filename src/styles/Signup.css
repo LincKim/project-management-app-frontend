@@ -85,3 +85,241 @@ h2{
     -webkit-font-smoothing: antialiased;
     display: block;
 }
+.sign-up-form{
+    box-sizing: inherit;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+.signup-entries{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: inherit;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.email-entry{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+}
+.username-entry{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+}
+.password-entry{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+}
+.email-label{
+    cursor: default;
+}
+.username-label{
+    cursor: default;
+}
+.password-label{
+    cursor: default;
+}
+.placeholder-email{
+    box-sizing: inherit;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.placeholder-username{
+    box-sizing: inherit;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.placeholder-password{
+    box-sizing: inherit;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.input-email1{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 14px;
+    border: 1px solid var(--color-grey-2,#B2B2B2);
+    border-radius: 8px;
+    background: var(--color-bg-white-l-1,rgba(255,255,255,1));
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: normal;
+    appearance: none;
+}
+.input-username{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 14px;
+    border: 1px solid var(--color-grey-2,#B2B2B2);
+    border-radius: 8px;
+    background: var(--color-bg-white-l-1,rgba(255,255,255,1));
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: normal;
+    appearance: none;
+}
+.input-password{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 14px;
+    border: 1px solid var(--color-grey-2,#B2B2B2);
+    border-radius: 8px;
+    background: var(--color-bg-white-l-1,rgba(255,255,255,1));
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: normal;
+    appearance: none;
+}
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+}
+.submit-signup{
+    border-color: var(--primary-color,rgb(0,105,255));
+    background-color: var(--primary-color,rgb(0,105,255));
+    color: var(--text-color-secondary-4,rgba(255,255,255,1));
+    font-weight: 700;
+    line-height: 22px;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 44px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.get-started-submission{
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-secondary-4,rgba(255,255,255,1));
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+}
+.already-signed-up{
+    margin: 24px 0 0;
+    font-size: 14px;
+    box-sizing: inherit;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color,rgb(26,26,26));
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
