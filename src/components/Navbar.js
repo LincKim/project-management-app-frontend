@@ -12,6 +12,8 @@ const Navbar = () => {
                     <ul className="items-nav">
                         <li> <a href="#" className="lists">About</a></li>
                         <li> <a href="#" className="lists">Contact</a></li>
+                        <li> <a href="#" className="lists">Blog</a></li>
+                        <li> <a href="#" className="lists">Mission</a></li>
                     </ul>
                     <ul className="items-nav right-side">
                         <li>

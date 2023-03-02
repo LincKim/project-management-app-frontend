@@ -219,8 +219,7 @@ span{
     width: 100%;
 }
 .gs-show2{
-    font-size: 1rem;
-    font: inherit;
+    font-size: 1rem;  
 }
 .about{
     background-color: rgb(255, 255, 255);
@@ -370,7 +369,6 @@ p{
     width: 100%;
     padding: 0px;
     border: 0px;
-    font: inherit;
     vertical-align: baseline;
     text-align: center;
     color: rgb(71, 103, 136);
@@ -382,7 +380,40 @@ p{
     user-select: text;
     padding: 0px;
     border: 0px;
-    font: inherit;
     vertical-align: baseline;
     text-align: center;
+}
+.showing-sign{
+    transition: all 0.2s linear 0s;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 8px;
+    font-family: Gilroy;
+    font-weight: 600;
+    min-height: 49px;
+    height: auto;
+    margin: 8px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: rgb(0, 107, 255);
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+.sign-up-button a{
+    width: initial;
+}
+.showing-sign span{
+    display: inline;
+}
+.signing-now{
+    width: 100%;
 }
