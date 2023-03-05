@@ -23,10 +23,11 @@ const ProjectDetails = () => {
                         {project && (
                             <article>
                                 <h2>{project.title}</h2>
-                                <p>{project.description}</p>
-                                <p>{project.createdAt}</p>
-                                <p>{project.status}</p>
-                                <button onClick={handleClick} >Delete</button>
+                                <p>Project Description: {project.description}</p>
+                                <p>Project Created At: {project.createdAt}</p>
+                                <p>Status: {project.status}</p>
+                                <p>Project Members: {project.member}</p>
+                                <button onClick={handleClick}  className="delete-project-btn">Delete</button>
                             </article>
                         ) }
             </div>

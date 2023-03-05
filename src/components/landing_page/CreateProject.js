@@ -9,6 +9,8 @@ const CreateProject = () => {
     const [formData, setFormData] = useState ({
         title: "",
         description: "",
+        status: "",
+        member: "",
     });
 
 
@@ -81,20 +83,43 @@ const CreateProject = () => {
                                     </div>
                                 </div>
                                 <div>
+                                    <div className="username-entry">
+                                        <label htmlFor="" className="username-label"> Project Status</label>
+                                    </div>
+                                    <div className="placeholder-username">
+                                        <select 
+                                        type="text" 
+                                        name="status"
+                                        className="input-username"
+                                        value={formData.status}
+                                        onChange={(e) => setFormData({ ...formData, status: parseInt(e.target.value) })}
+                                        > 
+                                        <option value={0}> Created</option>
+                                        <option value={1}>Ongoing</option>
+                                        <option value={2}> Completed</option>
+                                        <option value={3}> Cancelled</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div></div>
+                                <div>
 
-                                    {/* <div className="password-entry">
-                                        <label htmlFor="" className="password-label"> Enter Password</label>
+                                    <div className="password-entry">
+                                        <label htmlFor="" className="password-label"> Enter Fellow Member</label>
                                     </div>
                                     <div className="placeholder-password">
                                         <input 
-                                        type="password" 
-                                        name="password" 
-                                        placeholder="password" 
+                                        type="text" 
+                                        name="member" 
+                                        placeholder="member" 
                                         className="input-password"
+
+                                        onChange={(e) => setFormData({ ...formData, member: e.target.value })}
                                        
                                         />
-                                    </div> */}
+                                    </div>
                                 </div>
+
                             </div>
                             <button type="submit" className="submit-signup">
                                 {" "}
