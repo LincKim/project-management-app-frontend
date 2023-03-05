@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (  
@@ -20,10 +21,10 @@ const Home = () => {
                                     </p>
                                     <div className="button-container">
                                         <span className="sign-up-button">
-                                            <a href="/signup" className="showing-sign">
+                                            <Link to="/signup" className="showing-sign">
                                                 <span className="signing-now">Sign up now</span>
 
-                                            </a>
+                                            </Link>
 
                                         </span>
 

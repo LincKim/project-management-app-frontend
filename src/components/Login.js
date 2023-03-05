@@ -1,11 +1,13 @@
+import React from "react";
+import { Link } from "react-router-dom";
 const Login = () => {
     return ( 
         <div className="login-body">
         <div className="show-body">
             <h1>
-                <a href="/home" className="return-home">
+                <Link href="/" className="return-home">
                 <i className="fas fa-project-diagram" id="project-logo"></i><span className="logo-name">Project Management App</span>
-                </a>
+                </Link>
             </h1>
             <h2 className="h2-login">Log in to your account</h2>
             <div className="form-div">
@@ -41,7 +43,7 @@ const Login = () => {
                 <div className="already-logged-in">
                     <p>
                         Don't have an account?
-                        <a href="/login" className="log-get-started"> Sign up</a>
+                        <Link href="/login" className="log-get-started"> Sign up</Link>
                     </p>
                     
                 </div>
