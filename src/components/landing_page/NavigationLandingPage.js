@@ -11,11 +11,15 @@ const NavigationLandingPage = () => {
                         <div className="app-name">
                             <div className="show-app">
                                 <button className="show-name1">
-                                    <div className="before-name">
-                                        <h1 className="exact-app">
-                                            My Projects
-                                        </h1>
-                                    </div>
+                                    <Link to="/landing">
+                                        <div className="before-name">
+                                            
+                                            <h1 className="exact-app">
+                                                My Projects
+                                            </h1>
+                                            
+                                        </div>
+                                    </Link>
 
                                 </button>
 

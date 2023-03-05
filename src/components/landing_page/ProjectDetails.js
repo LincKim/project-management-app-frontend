@@ -1,5 +1,6 @@
 import useFetch from "./UseFetch";
 import {useNavigate, useParams} from "react-router-dom"
+import NavigationLandingPage from "./NavigationLandingPage";
 const ProjectDetails = () => {
 
     const{id} = useParams();
@@ -15,15 +16,20 @@ const ProjectDetails = () => {
 
     return ( 
         <div>
-            {isPending && <div>Loading ...</div>}
-           {error && <div> { error}</div>}
-            {project && (
-                <article>
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
-                    <button onClick={handleClick}>Delete</button>
-                </article>
-            ) }
+            <NavigationLandingPage/>
+            <div className="wrapper1">
+                        {isPending && <div>Loading ...</div>}
+                        {error && <div> { error}</div>}
+                        {project && (
+                            <article>
+                                <h2>{project.title}</h2>
+                                <p>{project.description}</p>
+                                <p>{project.createdAt}</p>
+                                <p>{project.status}</p>
+                                <button onClick={handleClick} >Delete</button>
+                            </article>
+                        ) }
+            </div>
         </div>
      );
 }
