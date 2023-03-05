@@ -42,7 +42,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }
-.logo-show{
+.logo-show23{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -198,6 +198,9 @@ h1{
     line-height: 1;
     text-transform: none;
     speak: none;
+    text-decoration: none;
+    
+
 }
 .my-navigation{
     margin-top: 16px;
@@ -223,6 +226,88 @@ h1{
     font-size: 16px;
     font-family: proxima nova,sans-serif;
     line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.landing-nav-list{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    overflow-x: scroll;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color,rgb(26,26,26));
+    -webkit-text-size-adjust: 100%;
+
+}
+ul{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-list1{
+    padding-left: 0;
+    box-sizing: inherit;
+    padding: 0 16px;
+    list-style: none;
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color,rgb(26,26,26));
+    -webkit-text-size-adjust: 100%;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.listed-item{
+    pointer-events: none;
+    box-sizing: inherit;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.all-project-item{
+    border-bottom-color: var(--primary-color,rgb(0,105,255));
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    padding: 7px 0 14px;
+    border-bottom: 3px solid transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    pointer-events: none;
+    white-space: nowrap;
+    text-align: center;
+    color: inherit;
+    cursor: pointer;
+    list-style: none;
     word-break: break-word;
     overflow-wrap: break-word;
     -webkit-font-smoothing: antialiased;

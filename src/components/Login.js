@@ -36,7 +36,7 @@ const Login = () => {
         <div className="login-body">
         <div className="show-body">
             <h1>
-                <Link href="/" className="return-home">
+                <Link to="/" className="return-home">
                 <i className="fas fa-project-diagram" id="project-logo"></i><span className="logo-name">Project Management App</span>
                 </Link>
             </h1>
