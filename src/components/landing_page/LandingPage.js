@@ -5,7 +5,7 @@ import ProjectList from "./ProjectList";
 import useFetch from "./UseFetch";
 const LandingPage = () => {
 
-    const {data:projects, isPending, error} = useFetch("http://localhost:9292/projects")
+    const {data:projects, isPending, error} = useFetch("http://0.0.0.0:9292/projects")
     return ( 
         <div>
             <NavigationLandingPage/>

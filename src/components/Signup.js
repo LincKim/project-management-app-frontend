@@ -15,7 +15,7 @@ const Signup = () => {
     const handleSignUp = (e) => {
         e.preventDefault();
 
-        fetch("http://localhost:9292/users/signup",{
+        fetch("http://0.0.0.0:9292/users/signup",{
             method: "POST",
             headers:{
                 "Content-type": "application/json",

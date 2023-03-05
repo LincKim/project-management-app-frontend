@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     const {data:project, error, isPending} = useFetch("http://localhost:9292/projects/" + id)
     const navigate = useNavigate()
     const handleClick = () =>{
-        fetch("http://localhost:9292/projects/destroy/" + project.id,{
+        fetch("http://0.0.0.0:9292/projects/destroy/" + project.id,{
             method:'DELETE'
         }).then(()=>{
             navigate("/landing")
@@ -24,7 +24,7 @@ const ProjectDetails = () => {
                             <article>
                                 <h2>{project.title}</h2>
                                 <p>Project Description: {project.description}</p>
-                                <p>Project Created At: {project.createdAt}</p>
+                                <p>Project Created At (UTC): {project.createdAt}</p>
                                 <p>Status: {project.status}</p>
                                 <p>Project Members: {project.member}</p>
                                 <button onClick={handleClick}  className="delete-project-btn">Delete</button>

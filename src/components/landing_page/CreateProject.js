@@ -17,7 +17,7 @@ const CreateProject = () => {
     const handleCreateProject = (e) => {
         e.preventDefault();
 
-        fetch("http://localhost:9292/projects/create",{
+        fetch("http://0.0.0.0:9292/projects/create",{
             method: "POST",
             headers:{
                 "Content-type": "application/json",
@@ -94,6 +94,7 @@ const CreateProject = () => {
                                         value={formData.status}
                                         onChange={(e) => setFormData({ ...formData, status: parseInt(e.target.value) })}
                                         > 
+                                        <option > Choose below</option>
                                         <option value={0}> Created</option>
                                         <option value={1}>Ongoing</option>
                                         <option value={2}> Completed</option>
