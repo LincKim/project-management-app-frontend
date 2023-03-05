@@ -1,0 +1,230 @@
+.home-bar{
+    box-sizing: inherit;
+    display: block;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.showcase-container{
+    padding-top: 30px;
+    background-color: var(--color-bg-white-l-1,rgba(255,255,255,1));
+    box-shadow: 0 20px 20px -20px rgb(0 0 0 / 15%);
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+}
+.showcase-projects{
+    max-width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: inherit;
+    display: block;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.logo-show{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 44px;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+.app-name{
+    max-width: calc(100% -62px);
+    margin-right: auto;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.show-app{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    min-height: 40px;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.show-name1{
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 26px;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+button{
+    text-transform: none;
+    -webkit-appearance: button;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+.before-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 26px;
+    text-align: left;
+}
+.exact-app{
+    font-size: 26px;
+    box-sizing: inherit;
+    white-space: nowrap;
+    text-align: left;
+    cursor: pointer;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+.create-projects{
+    position: relative;
+    box-sizing: inherit;
+    display: block;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.create-button{
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    min-height: 44px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-size: 14px;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    border-color: var(--primary-color,rgb(0,105,255));
+    background-color: var(--primary-color,rgb(0,105,255));
+    color: var(--text-color-secondary-4,rgba(255,255,255,1));
+    font-weight: 700;
+    line-height: 22px;
+    width: 100%;
+
+}
+.div-button{
+    gap: 8px;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-secondary-4,rgba(255,255,255,1));
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+}
+.my-navigation{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 44px;
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.landing-nav{
+    box-sizing: inherit;
+    overflow: hidden;
+    height: 48px;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
