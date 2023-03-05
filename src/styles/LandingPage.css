@@ -313,3 +313,93 @@ li{
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }
+.project-list{
+    display: block;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+
+}
+.project-preview:hover{
+    box-shadow: 1px 3px 5px 6px rgba(0,0,0,0.1)
+}
+.wrapper1{
+    margin-bottom: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1020px;
+    margin-top: 30px;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    border-bottom: 1px solid #fafafa;
+
+}
+
+.project-detail-23{
+    box-sizing: inherit;
+    color: var(--text-color,rgb(26,26,26));
+    font-size: 16px;
+    font-family: proxima nova,sans-serif;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/* .my-project-displayed{
+
+    font-size: 20px;
+    box-sizing: inherit;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: left;
+    color: var(--text-color,rgb(26,26,26));
+    font-family: proxima nova,sans-serif;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+} */
+.description-project-now{
+    color: var(--text-color,rgb(26,26,26));
+    box-sizing: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    font-family: proxima nova,sans-serif;
+}
