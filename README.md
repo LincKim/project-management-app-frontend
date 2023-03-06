@@ -9,6 +9,8 @@ This application is a React app that uses sinatra  DSL  API to enable the user t
 
 In addition, the user is able to see the list of all the projects as well as delete a project after clicking on the project to see the full information.
 
+- A little patience as the data is sent to the server for storage or retrieval goes a long way
+
 Below is a peek of the homepage:
 
 <img src="homepage.png" alt="homepage">
