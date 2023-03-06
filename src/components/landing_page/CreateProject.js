@@ -17,7 +17,7 @@ const CreateProject = () => {
     const handleCreateProject = (e) => {
         e.preventDefault();
 
-        fetch("http://0.0.0.0:9292/projects/create",{
+        fetch("https://project-management-backend-wtx2.onrender.com/projects/create",{
             method: "POST",
             headers:{
                 "Content-type": "application/json",

@@ -4,10 +4,10 @@ import NavigationLandingPage from "./NavigationLandingPage";
 const ProjectDetails = () => {
 
     const{id} = useParams();
-    const {data:project, error, isPending} = useFetch("http://localhost:9292/projects/" + id)
+    const {data:project, error, isPending} = useFetch("https://project-management-backend-wtx2.onrender.com/projects/" + id)
     const navigate = useNavigate()
     const handleClick = () =>{
-        fetch("http://0.0.0.0:9292/projects/destroy/" + project.id,{
+        fetch("https://project-management-backend-wtx2.onrender.com/projects/destroy/" + project.id,{
             method:'DELETE'
         }).then(()=>{
             navigate("/landing")
