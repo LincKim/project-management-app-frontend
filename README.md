@@ -81,6 +81,11 @@ One is able to see all attributes of the project and even delete the project
 ![project](project.png)
 
 
+### Live link of the project
+
+        
+            https://project-management-app-six-mocha.vercel.app/
+        
 
 
 
