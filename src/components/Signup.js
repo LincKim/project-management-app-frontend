@@ -17,6 +17,8 @@ const Signup = () => {
 
         fetch("https://project-management-backend-wtx2.onrender.com/users/signup",{
             method: "POST",
+            crossorigin: true,
+            mode: "no-cors",
             headers:{
                 "Content-type": "application/json",
             },
