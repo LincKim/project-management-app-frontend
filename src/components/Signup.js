@@ -15,10 +15,8 @@ const Signup = () => {
     const handleSignUp = (e) => {
         e.preventDefault();
 
-        fetch("https://project-management-backend-tv1x.onrender.com/users/signup",{
+        fetch("https://project-management-backend-wtx2.onrender.com/users/signup",{
             method: "POST",
-            crossorigin: true,
-            mode: "no-cors",
             headers:{
                 "Content-type": "application/json",
             },
