@@ -12,11 +12,12 @@ const CreateProject = () => {
         status: "",
         member: "",
     });
+    const [isLoading, setIsLoading] = useState(false);
 
 
     const handleCreateProject = (e) => {
         e.preventDefault();
-
+        setIsLoading(true);
         fetch("https://project-management-backend-wtx2.onrender.com/projects/create",{
             method: "POST",
             headers:{
@@ -30,6 +31,7 @@ const CreateProject = () => {
                     localStorage.setItem("user", JSON.stringify(data.user));
                     console.log("Project added Successfully")
                     navigate("/landing");
+                    setIsLoading(false);
                   });
             }else{
                 console.log("Error in Adding Project");
@@ -122,12 +124,18 @@ const CreateProject = () => {
                                 </div>
 
                             </div>
+                            {!isLoading &&
                             <button type="submit" className="submit-signup">
                                 {" "}
                                 <Link to="/landing"></Link>
                                 <div className="get-started-submission">Create Project</div>
 
-                            </button>
+                            </button>}
+                            {isLoading && <button type="submit" className="submit-signup" disabled>
+                            {" "}
+                                <div className="get-started-submission">Redirecting to All Projects...</div>
+
+                        </button>}
                         </div>
 
                     </form>

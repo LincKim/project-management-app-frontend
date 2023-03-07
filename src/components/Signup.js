@@ -95,7 +95,7 @@ const Signup = () => {
                                     </div>
                                 </div>
                             </div>
-                            { isLoading &&
+                            {!isLoading &&
                             <button type="submit" className="submit-signup">
                                 {" "}
                                 <Link to="/login"></Link>
@@ -104,7 +104,7 @@ const Signup = () => {
                             </button>}
                             {isLoading && <button type="submit" className="submit-signup" disabled>
                             {" "}
-                                <div className="get-started-submission">Redirecting to login...</div>
+                                <div className="get-started-submission">Redirecting to Login...</div>
 
                         </button>}
                         </div>
