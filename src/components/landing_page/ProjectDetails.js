@@ -13,6 +13,13 @@ const ProjectDetails = () => {
             navigate("/landing")
         })
     }
+    // const handleUpdate = () =>{
+    //     fetch("https://project-management-backend-wtx2.onrender.com/projects/update/" + project.id,{
+    //         method:'PUT',
+    //     }).then(()=>{
+    //         navigate("/update")
+    //     })
+    // }
 
     return ( 
         <div>
@@ -28,6 +35,7 @@ const ProjectDetails = () => {
                                 <p>Status: {project.status}</p>
                                 <p>Project Members: {project.member}</p>
                                 <button onClick={handleClick}  className="delete-project-btn">Delete</button>
+                                {/* <button onClick={handleUpdate}  className="delete-project-btn">Update</button> */}
                             </article>
                         ) }
             </div>
