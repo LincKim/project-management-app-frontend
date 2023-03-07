@@ -88,7 +88,7 @@ const Login = () => {
                         </button>}
                         {isLoading && <button type="submit" className="submit-signup" disabled>
                             {" "}
-                                <div className="get-started-submission">Logging In</div>
+                                <div className="get-started-submission">Logging In...</div>
 
                         </button>}
                     </div>

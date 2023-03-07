@@ -10,10 +10,12 @@ const Signup = () => {
         username: "",
         password: "",
     });
-
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleSignUp = (e) => {
         e.preventDefault();
+
+        setIsLoading(true);
 
         fetch("https://project-management-backend-wtx2.onrender.com/users/signup",{
             method: "POST",
@@ -28,6 +30,7 @@ const Signup = () => {
                     localStorage.setItem("user", JSON.stringify(data.user));
                     console.log("User added Successfully")
                     navigate("/login");
+                    setIsLoading(false)
                   });
             }else{
                 console.log("Error in Signup");
@@ -92,12 +95,18 @@ const Signup = () => {
                                     </div>
                                 </div>
                             </div>
+                            { isLoading &&
                             <button type="submit" className="submit-signup">
                                 {" "}
                                 <Link to="/login"></Link>
                                 <div className="get-started-submission">Get Started</div>
 
-                            </button>
+                            </button>}
+                            {isLoading && <button type="submit" className="submit-signup" disabled>
+                            {" "}
+                                <div className="get-started-submission">Redirecting to login...</div>
+
+                        </button>}
                         </div>
 
                     </form>
