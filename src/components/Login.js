@@ -8,9 +8,11 @@ const Login = () => {
         email: "",
         password: "",
     });
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleLogin = (e) => {
         e.preventDefault();
+        setIsLoading(true);
 
         fetch("https://project-management-backend-wtx2.onrender.com/users/login", {
             method: "POST",
@@ -25,6 +27,7 @@ const Login = () => {
                 localStorage.setItem("user", JSON.stringify(data.user));
                 console.log('Welcome')
                 navigate("/landing");
+                setIsLoading(false);
               });
             } else {
               console.log("email or password incorrect");
@@ -43,6 +46,8 @@ const Login = () => {
             <h2 className="h2-login">Log in to your account</h2>
             <div className="form-div">
                 <form action="" className="login-form" onSubmit={(e) => handleLogin(e)}>
+
+                    
                     <div className="login-entries">
                         <div>
                             <div>
@@ -75,12 +80,19 @@ const Login = () => {
                                 </div>
                             </div>
                         </div>
+                        {!isLoading &&
                         <button type="submit" className="submit-signup">
                             {" "}
                                 <div className="get-started-submission">Continue</div>
 
-                        </button>
+                        </button>}
+                        {isLoading && <button type="submit" className="submit-signup" disabled>
+                            {" "}
+                                <div className="get-started-submission">Logging In</div>
+
+                        </button>}
                     </div>
+                    
 
                 </form>
 
